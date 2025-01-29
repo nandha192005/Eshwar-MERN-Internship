@@ -1,0 +1,115 @@
+/* Skills Section Container */
+.skills {
+    background: linear-gradient(145deg, #1c1c1c, #292929); /* Subtle gradient for depth */
+    color: #e7ebf0;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Elevated shadow for a premium look */
+    font-family: 'Roboto', sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Section Title */
+.skills h1 {
+    color: #e7ebf0;
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2); /* Thin underline for emphasis */
+    padding-bottom: 0.5rem;
+}
+
+/* Unordered List */
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Responsive, flexible layout */
+    justify-content: center;
+    gap: 1rem; /* Space between items */
+}
+
+/* List Items */
+.skills li {
+    background: linear-gradient(135deg, #3a3a3a, #474747); /* Modern gradient */
+    color: #fff;
+    margin: 0.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.skills li:hover {
+    background: linear-gradient(135deg, #4b8bdb, #5670e3); /* Highlighted gradient on hover */
+    transform: scale(1.05); /* Subtle zoom effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skills {
+        padding: 1.5rem;
+    }
+
+    .skills h1 {
+        font-size: 2rem;
+    }
+
+    .skills ul {
+        gap: 0.8rem;
+    }
+
+    .skills li {
+        font-size: 1rem;
+        padding: 0.8rem 1rem;
+    }
+}
+/* General Button Styling */
+.download-btn {
+    background: linear-gradient(135deg, #4caf50, #388e3c); /* Green gradient */
+    color: #ffffff; /* White text */
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem; /* Adjust padding for size */
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transitions for hover effects */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    letter-spacing: 1px; /* Slight spacing for readability */
+  }
+  
+  /* Hover Effects */
+  .download-btn:hover {
+    background: linear-gradient(135deg, #66bb6a, #43a047); /* Brighter gradient on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  /* Active/Pressed State */
+  .download-btn:active {
+    transform: scale(0.98); /* Slight shrink on click */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow reduction */
+  }
+  
+  /* Mobile Responsive Styling */
+  @media (max-width: 768px) {
+    .download-btn {
+      font-size: 1rem; /* Smaller font for mobile */
+      padding: 0.6rem 1.2rem; /* Adjust padding */
+    }
+  }
+  

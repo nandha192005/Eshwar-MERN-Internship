@@ -1,0 +1,103 @@
+
+.b {
+  margin: 0 !important;
+  font-family: Arial, sans-serif !important;
+  background-color: #f4f4f4 !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-image: url('R.jpg'); /* Replace with the actual image */
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 50px; /* Space between image and text */
+}
+
+.profile-image {
+  width: 400px;
+  height: 400px;
+  background-image: url("PXL_20240906_104314003.PORTRAIT.jpg"); /* Replace with the actual image */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 5px rgba(64, 209, 32, 0.8), 0px 4px 10px rgba(0, 0, 0, 0.1); /* Glowing effect */
+  transition: box-shadow 0.3s ease;
+}
+
+.profile-image:hover {
+  box-shadow: 0 0 30px 10px rgba(0, 195, 255, 1), 0px 4px 10px rgba(0, 0, 0, 0.1); /* Stronger glow on hover */
+}
+
+.profile-info {
+  max-width: 600px;
+}
+
+.profile-info h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #060404;
+  font-weight:bold;
+}
+
+.name {
+  color: #00c3ff;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+.wave {
+  font-size: 1.5rem;
+  color: #120f0f;
+  font-weight: bold;
+}
+
+.profile-info h2 {
+  font-size: 1.5rem;
+  color: #020202;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.details {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.details li {
+  color: #141010;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.details li::before {
+  content: "•";
+  color: #0c0f10;
+  margin-right: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons .icon {
+  text-decoration: none;
+  color: #0f0b0b; /* Default icon color */
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons .icon:hover {
+  color: #329e24; /* Change color on hover */
+}
